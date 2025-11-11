@@ -1,0 +1,2 @@
+source /Users/jacksloan/ESP32_Test/build/bootloader/gdbinit/symbols
+source /Users/jacksloan/ESP32_Test/build/bootloader/gdbinit/connect
