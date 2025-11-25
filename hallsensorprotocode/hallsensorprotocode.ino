@@ -3,6 +3,23 @@
 #include <cstdint>    
 #include "SparkFun_TMAG5273_Arduino_Library.h" 
 
+#include <WiFi.h>
+#include <WiFiUdp.h>
+
+const char* ssid = "LAPTOP-UHMN8MIP 4335";
+const char* password = "46Qh8]68";
+
+WiFiUDP sendUDP;
+WiFiUDP recvUDP;
+
+// CHANGE TO LAPTOP'S IP ADDRESS (ON HOTSPOT NETWORK)
+const char* laptop_ip = "192.168.137.1";  
+//const char* laptop_ip = "192.168.2.1";
+//const char* laptop_ip = "172.20.10.1";
+
+
+const int sendPort = 5005;
+const int recvPort = 6000;
 
 TMAG5273 sensor; 
 // MACROS
@@ -11,9 +28,10 @@ TMAG5273 sensor;
 #define TORQUE_GRANULARITY 0.01
 #define maxField 7.0; // mT value when pedal is fully pressed 
 #define minField 1.0; // mT value when pedal is released
+#define ms_delay 20
 // Globals for torque 
 int MODE = 0;  // 0 = Standard, 1 = Sport, 2 = Eco
-int TORQUE_COMMAND;
+uint16_t TORQUE_COMMAND;
 
 // Note that values are upshifted by 150NM, or 15000 units (150 * Torque granularity)
 // This is done so that a value of 0 represents our lowest possible value of torque (no negatives)
@@ -66,6 +84,30 @@ void setup()
     while (1);
   }
   sensor.setTemperatureEn(false); // temperature not needed
+
+//for UDP CODE
+Serial.begin(115200);
+  delay(2000);
+  Serial.println("Entered Bootloader");
+
+  WiFi.begin(ssid, password);
+  Serial.println("*Connecting*");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println("\n*Connected*");
+  Serial.print("ESP32 IP: ");
+  Serial.println(WiFi.localIP());
+
+  Serial.print("Sending to laptop IP: ");
+  Serial.println(laptop_ip);
+
+  sendUDP.begin(sendPort);
+  recvUDP.begin(recvPort);
+
+
 }
 
 void loop() 
@@ -76,18 +118,34 @@ void loop()
   // Compute pedal percentage
   float pedal_percentage = pedal_percent_averaged();
   
-
-
-  uint_16 Torque_CMD = TorqueMap(pedal_percentage)
+  TORQUE_COMMAND = TorqueMap(pedal_percentage, speed)
 
   // Send Torque Command to Simulation
   // ****************** JACK + MARZOUK FILL IN HERE ******************
 
-  // Delay
-  delay(20);
+  //SEND
+  sendUDP.beginPacket(laptop_ip, sendPort);
+  sendUDP.print(int(TORQUE_COMMAND));
+  sendUDP.endPacket();
 
-  // Poll SIM for speed
-  // ****************** JACK + MARZOUK FILL IN HERE ******************
+  Serial.print("Sent: ");
+  Serial.println(TORQUE_COMMAND);
+
+  //RECEIVE
+  int speed_from_computer = 0;
+  int packetSize = recvUDP.parsePacket();
+  if (packetSize != 0) {
+    if (packetSize == sizeof(int))
+      recvUDP.read((char*)&speed_from_computer, sizeof(speed_from_computer))
+    else {
+      printf("Packet wrong size!!\n");
+    }
+    Serial.print("Received from laptop: ");
+    Serial.println(speed_from_computer);
+  }
+  float speed = speed_from_computer / 2;
+
+  delay(ms_delay);
 
    // currently sampling at 50 times/sec but update this if it hogs the MCU too much or results in unacceptably delayed pedal sensing  
   } else
@@ -280,10 +338,10 @@ void init_lower() {
   }
 }
 
-int index_from_speed(int speed) {
+int index_from_speed(float speed) {
   // Find x axis index by multiplying the speed number by the granularity
   // e.g. speed number = 4 -> corresponds to 2km/h if granularity is 0.5
-  return speed * SPEED_GRANULARITY;
+  return speed / SPEED_GRANULARITY;
 }
 
 int torque_to_command(int torque) {
@@ -291,7 +349,7 @@ int torque_to_command(int torque) {
   return 1;
 }
 
-uint16_t TorqueMap(double pedal_percentage, int speed) {
+uint16_t TorqueMap(double pedal_percentage, float speed) {
   int speed_index = index_from_speed(speed);
 
   uint16_t upper = upper_map[speed_index];
