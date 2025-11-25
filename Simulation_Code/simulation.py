@@ -8,13 +8,17 @@ Crr = 0.02
 Cd  = 0.5
 A_frontal   = 2.0
 rw  = 0.28
-theta = np.deg2rad(10)     # try 0 first to sanity-check
+theta = np.deg2rad(10) # try 0 first to sanity-check
 vw = 2.0
-gear = 1.65                 # <-- reduction ratio (motor:wheel)
+gear = 1.65 # reduction ratio (motor:wheel)
 g = 9.81
 dt = 0.001
 
 # *** Frequencies (in Hz): ***
+ # ****************** JACK + MARZOUK UPDATE HERE ********************************
+ # We need to decide on how often data is sent back and forth from sim to board
+ # We should draw a timing diagram or something to time the waits in both codes
+ # 
 # Simulation and MCU frequency:
 f_sim = 1000
 # GUI Update frequency:
@@ -47,9 +51,13 @@ w_hist.append(0)
 def update():
   steps = f_sim / f_GUI
   torque_cmd = 0.0
+  # 
   for x in range(int(steps)):
     # Example torque pattern (2 s on / 2 s off)
     
+    # ************************** JACK + MARZOUK UPDATE HERE ********************************
+    # Replace this with the torque cmd we read from the board + error checks
+    # NOTE: WE should have 
     if ((time.perf_counter() % 4) < 2):
       torque_cmd = 2000.0
     else:
@@ -69,7 +77,7 @@ def update():
     v_next = max(0.0, speed_hist[-1] + a_next * dt)
     w_next = v_next / rw
 
-  # Plot and update buffers
+  # Update buffers
   t_next = time.perf_counter() - t0
   t_hist.append(t_next)
   Torque_hist.append(torque_cmd)
@@ -82,6 +90,7 @@ def update():
     speed_hist.pop(0)
     w_hist.pop(0)
 
+  # Plot buffers:
   torque_curve.setData(t_hist, Torque_hist)
   speed_curve.setData(t_hist, speed_hist)
   wheelspeed_curve.setData(t_hist, w_hist)
