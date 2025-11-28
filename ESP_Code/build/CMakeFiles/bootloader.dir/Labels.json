@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/CMakeFiles/bootloader"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/CMakeFiles/bootloader.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

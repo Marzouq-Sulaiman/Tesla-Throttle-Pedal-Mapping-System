@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /Users/jacksloan/ESP32_Test/build/bootloader/bootloader.elf
+    add-symbol-file /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /Users/jacksloan/ESP32_Test/build/ESP32_Test.elf
+file /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/ESP32_Test.elf

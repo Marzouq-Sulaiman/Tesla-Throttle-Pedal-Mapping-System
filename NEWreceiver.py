@@ -40,6 +40,22 @@ print("Listening on Laptop UDP port 5005 and sending to ESP32 at", esp32_ip)
 Current_Torque = 0
 Current_Speed = 0
 Current_w = 0
+Current_Power = 0
+Current_Bat_Voltage = 0
+
+# "MACROS" For battery
+NOM_VOLTAGE = 350
+# Cells are LFP which has nom voltage of 3.2V per cell
+SERIES_CELL_COUNT = 110  # 350 / 3.2V
+# Because we only have the accelerator, we only need the minimum voltage of the battery
+# LFP has Min Voltage of 2.5V per cell
+MIN_VOLTAGE = SERIES_CELL_COUNT * 2.5
+MAX_VOLTAGE_DIFFERENTIAL = NOM_VOLTAGE - MIN_VOLTAGE
+# From Lab 2, we say that cells should be limited to 20mOhm per cell
+BATT_ESR = 0.02 * SERIES_CELL_COUNT
+# Maximum current the battery can draw without dropping under the min voltage:
+MAX_CURRENT = MAX_VOLTAGE_DIFFERENTIAL / BATT_ESR
+MAX_POWER = MAX_CURRENT * NOM_VOLTAGE
 
 lastTime = time.time()      # seconds since UNIX epoch (float)
 time.sleep(1.0)      # sleeps for 1 second
@@ -49,7 +65,7 @@ time.sleep(1.0)      # sleeps for 1 second
 translation_factor = 0.01 # approximately equal to (max-min) / 2^16 - Torque definition from board
 
 # Parameters from lab 4
-mass = 1360.0
+mass = 1760.0
 Crr = 0.02
 Cd  = 0.5
 A_frontal   = 2.0
@@ -83,23 +99,38 @@ speed_curve = p2.plot(pen=pg.mkPen('g'), name="v [m/s]")
 speed_updater = CurveUpdater(speed_curve)
 wheelspeed_curve = p2.plot(pen=pg.mkPen('b'), name="w [rad/s]")
 wheelspeed_updater = CurveUpdater(wheelspeed_curve)
+# Power Plot:
+p3 = win.addPlot(title="Power & Current"); p3.showGrid(x=True,y=True)
+power_curve = p3.plot(pen=pg.mkPen('r'), name="Power [W]")
+power_updater = CurveUpdater(power_curve)
+current_curve = p3.plot(pen=pg.mkPen('y'), name="Current [A]")
+current_updater = CurveUpdater(current_curve)
+p4 = win.addPlot(title="Battery Voltage"); p4.showGrid(x=True,y=True)
+voltage_curve = p4.plot(pen=pg.mkPen('b'), name="Voltage [V]")
+voltage_updater = CurveUpdater(voltage_curve)
 
 # Create buffers:
 max_pts = 1000
 t0 = time.perf_counter()
-t_hist, Torque_hist, speed_hist, w_hist = [], [], [], []
+t_hist, Torque_hist, speed_hist, w_hist, power_hist, current_hist, voltage_hist = [], [], [], [], [], [], []
 speed_hist.append(0)
 Torque_hist.append(0)
 t_hist.append(0)
 w_hist.append(0)
+power_hist.append(0)
+voltage_hist.append(0)
 
 # When receiving torque from board:
 def on_new_data(Torque):
-  global Current_Torque, Current_Speed, Current_w
+  global Current_Torque, Current_Speed, Current_w, Current_Power, Current_Bat_Voltage
   # 1. Update the current torque variable
   Current_Torque = (Torque * translation_factor) - 150
 
+  # If the battery current is more than the maximum, limit the torque to stay below max power
+  if (Current_Bat_Voltage < MIN_VOLTAGE):
+    Current_Torque = MAX_POWER / Current_w
   print("Current Torque:", Current_Torque)
+  Previous_w = Current_w
 
   # 2. Calculate acceleration and speed
 
@@ -127,6 +158,12 @@ def on_new_data(Torque):
   Current_Speed = max(0.0, Current_Speed + a_next * deltaTime)
   Current_w = Current_Speed / rw
 
+  # NEW: BATTERY VOLTAGE STUFF
+  Current_Power = Previous_w * Current_Torque # Constant Power
+  Current_i = Current_Power / NOM_VOLTAGE
+  Current_Bat_Voltage = NOM_VOLTAGE - Current_i * BATT_ESR
+  
+
   print("\n2Current Speed (m/s):\n", Current_Speed)
 
   #Translate speed to km/h
@@ -143,7 +180,7 @@ def on_new_data(Torque):
 
 # ******** MAIN EVENT LOOP: **********
 def eventLoop():
-  global Current_Torque, Current_Speed, Current_w
+  global Current_Torque, Current_Speed, Current_w, Current_Power, Current_Bat_Voltage
   while (1):
     count = 0
     while (count < inputs_per_graph_update):
@@ -161,6 +198,9 @@ def eventLoop():
     Torque_hist.append(Current_Torque)
     speed_hist.append(Current_Speed)
     w_hist.append(Current_w)
+    power_hist.append(Current_Power)
+    current_hist.append(Current_Power / NOM_VOLTAGE)
+    voltage_hist.append(Current_Bat_Voltage)
 
     # b) Keep array size below max
     if len(t_hist) > max_pts:
@@ -168,6 +208,10 @@ def eventLoop():
       Torque_hist.pop(0)
       speed_hist.pop(0)
       w_hist.pop(0)
+      power_hist.pop(0)
+      current_hist.pop(0)
+      voltage_hist.pop(0)
+      
 
     # c) Plot buffers
     # Invoke the methods from the plotting thread:
@@ -180,6 +224,9 @@ def eventLoop():
     # torque_curve.setData(t_hist, Torque_hist)
     # speed_curve.setData(t_hist, speed_hist)
     # wheelspeed_curve.setData(t_hist, w_hist)
+    power_updater.update_curve.emit(t_hist, power_hist)
+    current_updater.update_curve.emit(t_hist, current_hist)
+    voltage_updater.update_curve.emit(t_hist, voltage_hist)
 
 
 

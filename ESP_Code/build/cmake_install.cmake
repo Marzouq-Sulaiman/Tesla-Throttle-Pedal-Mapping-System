@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jacksloan/ESP32_Test
+# Install script for directory: /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jacksloan/ESP32_Test/build/esp-idf/cmake_install.cmake")
+  include("/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/esp-idf/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/jacksloan/ESP32_Test/build/install_local_manifest.txt"
+  file(WRITE "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/jacksloan/ESP32_Test/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

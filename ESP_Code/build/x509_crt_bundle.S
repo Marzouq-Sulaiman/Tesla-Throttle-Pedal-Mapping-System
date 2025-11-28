@@ -1,4 +1,4 @@
-/* * Data converted from /Users/jacksloan/ESP32_Test/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

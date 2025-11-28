@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/jacksloan/esp/v5.5.1/esp-idf/components/bootloader/subproj
   file(MAKE_DIRECTORY "/Users/jacksloan/esp/v5.5.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/jacksloan/ESP32_Test/build/bootloader"
-  "/Users/jacksloan/ESP32_Test/build/bootloader-prefix"
-  "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/tmp"
-  "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src"
-  "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader"
+  "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix"
+  "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/tmp"
+  "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src"
+  "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/jacksloan/ESP32_Test/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

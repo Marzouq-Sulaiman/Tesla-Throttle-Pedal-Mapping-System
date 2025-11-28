@@ -35,8 +35,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -69,8 +73,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/git"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/git"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/git"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/git"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/git"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/git"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/git"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/git"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/git"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/git"
       - "/Users/jacksloan/.pyenv/shims/git"
       - "/Users/jacksloan/miniconda3/bin/git"
       - "/Users/jacksloan/.rbenv/shims/git"
@@ -91,8 +99,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -144,8 +161,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -178,8 +199,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/uname"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/uname"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/uname"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/uname"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/uname"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/uname"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/uname"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/uname"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/uname"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/uname"
       - "/Users/jacksloan/.pyenv/shims/uname"
       - "/Users/jacksloan/miniconda3/bin/uname"
       - "/Users/jacksloan/.rbenv/shims/uname"
@@ -204,8 +229,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -268,8 +302,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -326,12 +364,24 @@ events:
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/ninja-build"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/ninja"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/samu"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/ninja-build"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/ninja"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/samu"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/ninja-build"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/ninja"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/samu"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/ninja-build"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/ninja"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/samu"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/ninja-build"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/ninja"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/samu"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/ninja-build"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/ninja"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/samu"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/ninja-build"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/ninja"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/samu"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/ninja-build"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/ninja"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/samu"
       - "/Users/jacksloan/.pyenv/shims/ninja-build"
       - "/Users/jacksloan/.pyenv/shims/ninja"
       - "/Users/jacksloan/.pyenv/shims/samu"
@@ -363,8 +413,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -417,8 +476,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -463,8 +526,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -526,8 +598,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -578,7 +659,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/4.1.2/CompilerIdC/a.out
+        /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/4.1.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -614,8 +695,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -650,8 +735,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -705,8 +799,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -741,8 +839,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -796,8 +903,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -832,8 +943,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -887,8 +1007,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -923,8 +1047,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -978,8 +1111,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1014,8 +1151,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1069,8 +1215,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1105,8 +1255,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1160,8 +1319,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1196,8 +1359,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1251,8 +1423,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1287,8 +1463,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1342,8 +1527,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1376,8 +1565,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-dlltool"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-dlltool"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-dlltool"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-dlltool"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-dlltool"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-dlltool"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-dlltool"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-dlltool"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-dlltool"
@@ -1409,8 +1602,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/dlltool"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/dlltool"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/dlltool"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/dlltool"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/dlltool"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/dlltool"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/dlltool"
       - "/Users/jacksloan/.pyenv/shims/dlltool"
       - "/Users/jacksloan/miniconda3/bin/dlltool"
       - "/Users/jacksloan/.rbenv/shims/dlltool"
@@ -1445,8 +1642,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1500,8 +1706,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1536,8 +1746,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1591,8 +1810,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1625,8 +1848,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-tapi"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-tapi"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-tapi"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-tapi"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-tapi"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-tapi"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-tapi"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-tapi"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-tapi"
@@ -1658,8 +1885,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/tapi"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/tapi"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/tapi"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/tapi"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/tapi"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/tapi"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/tapi"
       - "/Users/jacksloan/.pyenv/shims/tapi"
       - "/Users/jacksloan/miniconda3/bin/tapi"
       - "/Users/jacksloan/.rbenv/shims/tapi"
@@ -1694,8 +1925,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1751,8 +1991,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1785,8 +2029,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14.2"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar-14.2"
@@ -1818,8 +2066,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar-14"
@@ -1851,8 +2103,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar14"
@@ -1887,8 +2143,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -1944,8 +2209,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -1978,8 +2247,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14.2"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib-14.2"
@@ -2011,8 +2284,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib-14"
@@ -2044,8 +2321,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib14"
@@ -2080,8 +2361,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2134,8 +2424,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -2180,8 +2474,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2243,8 +2546,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2295,7 +2607,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+        /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/4.1.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -2333,8 +2645,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -2367,8 +2683,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14.2"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar-14.2"
@@ -2400,8 +2720,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar-14"
@@ -2433,8 +2757,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar14"
@@ -2469,8 +2797,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2526,8 +2863,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -2560,8 +2901,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14.2"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib-14.2"
@@ -2593,8 +2938,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib-14"
@@ -2626,8 +2975,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib14"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib14"
@@ -2662,8 +3015,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2716,8 +3078,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -2762,8 +3128,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2833,8 +3208,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -2867,8 +3246,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar-"
@@ -2900,8 +3283,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ar-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ar-"
@@ -2936,8 +3323,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -2993,8 +3389,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/"
       - "/Users/jacksloan/.pyenv/shims/"
       - "/Users/jacksloan/miniconda3/bin/"
       - "/Users/jacksloan/.rbenv/shims/"
@@ -3027,8 +3427,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib-"
@@ -3060,8 +3464,12 @@ events:
       - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-"
-      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.pyenv/shims/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/miniconda3/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/jacksloan/.rbenv/shims/riscv32-esp-elf-gcc-ranlib-"
@@ -3096,8 +3504,17 @@ events:
         - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.9_env/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
         - "/Users/jacksloan/esp/v5.5.1/esp-idf/tools"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/espcoredump"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/partition_table"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/components/app_update"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/jacksloan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/jacksloan/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/jacksloan/.espressif/python_env/idf5.5_py3.11_env/bin"
+        - "/Users/jacksloan/esp/esp-idf-v5.5.1/tools"
         - "/Users/jacksloan/.pyenv/shims"
         - "/Users/jacksloan/miniconda3/bin"
         - "/Users/jacksloan/.rbenv/shims"
@@ -3127,8 +3544,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-r0YCcJ"
-      binary: "/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-r0YCcJ"
+      source: "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-U5SyqN"
+      binary: "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-U5SyqN"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=rv32imac_zicsr_zifencei "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3138,10 +3555,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-r0YCcJ'
+        Change Dir: '/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-U5SyqN'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0e314
-        [1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3d640
+        [1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
         Target: riscv32-esp-elf
@@ -3149,8 +3566,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_0e314.dir/'
-         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0e314.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//cciKWIgL.s
+        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_3d640.dir/'
+         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d640.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccBwzcLm.s
         GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3167,13 +3584,13 @@ events:
          /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include
         End of search list.
         Compiler executable checksum: 355c689fdbec0c7ff41056f2865da6bc
-        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_0e314.dir/'
-         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//cciKWIgL.s
+        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_3d640.dir/'
+         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccBwzcLm.s
         GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1
         COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj -o cmTC_0e314   && :
+        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj -o cmTC_3d640   && :
         Using built-in specs.
         COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper
@@ -3184,10 +3601,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_0e314' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_0e314.'
-         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccSEG0cH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_0e314 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_3d640' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_3d640.'
+         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccH0duGO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_3d640 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000100b4
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_0e314' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_0e314.'
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_3d640' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_3d640.'
         
       exitCode: 0
   -
@@ -3222,10 +3639,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-r0YCcJ']
+        ignore line: [Change Dir: '/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-U5SyqN']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0e314]
-        ignore line: [[1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3d640]
+        ignore line: [[1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc]
         ignore line: [Target: riscv32-esp-elf]
@@ -3233,8 +3650,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_0e314.dir/']
-        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0e314.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//cciKWIgL.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_3d640.dir/']
+        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d640.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccBwzcLm.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3251,13 +3668,13 @@ events:
         ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 355c689fdbec0c7ff41056f2865da6bc]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_0e314.dir/']
-        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//cciKWIgL.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_3d640.dir/']
+        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccBwzcLm.s]
         ignore line: [GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1]
         ignore line: [COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj -o cmTC_0e314   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj -o cmTC_3d640   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper]
@@ -3268,13 +3685,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_0e314' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_0e314.']
-        link line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccSEG0cH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_0e314 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_3d640' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_3d640.']
+        link line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccH0duGO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_3d640 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccSEG0cH.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccH0duGO.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3284,7 +3701,7 @@ events:
           arg [-melf32lriscv] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0e314] ==> ignore
+          arg [cmTC_3d640] ==> ignore
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32]
@@ -3293,7 +3710,7 @@ events:
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_0e314.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_3d640.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3301,7 +3718,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 000100b4]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_0e314' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_0e314.']
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_3d640' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_3d640.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32] ==> [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32]
@@ -3328,8 +3745,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vCdd0t"
-      binary: "/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vCdd0t"
+      source: "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-wDcjGP"
+      binary: "/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-wDcjGP"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-march=rv32imac_zicsr_zifencei "
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3340,10 +3757,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vCdd0t'
+        Change Dir: '/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-wDcjGP'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f186d
-        [1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5a627
+        [1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++
         Target: riscv32-esp-elf
@@ -3351,8 +3768,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_f186d.dir/'
-         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f186d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccywlBzZ.s
+        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_5a627.dir/'
+         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5a627.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccRqRvDI.s
         GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3375,13 +3792,13 @@ events:
          /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include
         End of search list.
         Compiler executable checksum: 6e49372a1109dc465056ef40790c161d
-        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_f186d.dir/'
-         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccywlBzZ.s
+        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_5a627.dir/'
+         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccRqRvDI.s
         GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1
         COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f186d   && :
+        COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5a627   && :
         Using built-in specs.
         COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper
@@ -3392,10 +3809,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_f186d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_f186d.'
-         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccA7DaFA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_f186d -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_5a627' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_5a627.'
+         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccDGRwi6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_5a627 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000100b4
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_f186d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_f186d.'
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_5a627' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_5a627.'
         
       exitCode: 0
   -
@@ -3436,10 +3853,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jacksloan/ESP32_Test/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-vCdd0t']
+        ignore line: [Change Dir: '/Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-wDcjGP']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f186d]
-        ignore line: [[1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5a627]
+        ignore line: [[1/2] /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imac_zicsr_zifencei     -v -o CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++]
         ignore line: [Target: riscv32-esp-elf]
@@ -3447,8 +3864,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_f186d.dir/']
-        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f186d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccywlBzZ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_5a627.dir/']
+        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imac_zicsr_zifencei/ilp32 -iprefix /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5a627.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imac_zicsr_zifencei -version -o /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccRqRvDI.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3471,13 +3888,13 @@ events:
         ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 6e49372a1109dc465056ef40790c161d]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_f186d.dir/']
-        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccywlBzZ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_5a627.dir/']
+        ignore line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imac_zicsr_zifencei -march=rv32imac_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccRqRvDI.s]
         ignore line: [GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1]
         ignore line: [COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f186d   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imac_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imac_zicsr_zifencei -nostartfiles -march=rv32imac_zicsr_zifencei  -v CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5a627   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper]
@@ -3488,13 +3905,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_f186d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_f186d.']
-        link line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccA7DaFA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_f186d -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_5a627' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_5a627.']
+        link line: [ /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccDGRwi6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_5a627 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccA7DaFA.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/pf/s0j80r256150d3kl9tnglfvh0000gn/T//ccDGRwi6.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3504,7 +3921,7 @@ events:
           arg [-melf32lriscv] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f186d] ==> ignore
+          arg [cmTC_5a627] ==> ignore
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imac_zicsr_zifencei/ilp32]
@@ -3513,7 +3930,7 @@ events:
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib]
           arg [-L/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib] ==> dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_f186d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_5a627.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3523,7 +3940,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 000100b4]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_f186d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_f186d.']
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imac_zicsr_zifencei' '-v' '-o' 'cmTC_5a627' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imac_zicsr_zifencei' '-dumpdir' 'cmTC_5a627.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32] ==> [/Users/jacksloan/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/14.2.0/rv32imac_zicsr_zifencei/ilp32]

@@ -1,2 +1,2 @@
-source /Users/jacksloan/ESP32_Test/build/gdbinit/symbols
-source /Users/jacksloan/ESP32_Test/build/gdbinit/connect
+source /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/gdbinit/symbols
+source /Users/jacksloan/APS380_Team_10/firmware/Tesla-Throttle-Pedal-Mapping-System/ESP_Code/build/gdbinit/connect
